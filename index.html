@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <figure>
+        <img src="images/drawers.jpg" alt="image" class="top-image" />
+
+      </figure>
+      <div class="container">
+        <section class="text-container">
+          <h2 class="text-preset-1">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p class="text-preset-2">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting.I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </section>
+        <footer>
+          <section class="avatar-section">
+            <span>
+              <img src="images/avatar-michelle.jpg" alt="avatar-michelle" />
+              <span class="bio">
+                <h3 class="text-preset-1-small">Michelle Appleton</h3>
+                <p class="text-preset-2">28 Jun 2020</p>
+              </span>
+            </span>
+            <button class="share-button nonactive" id="share-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="14px"
+                id="svg"
+              >
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  d="M307 34.8c-11.5 5.1-19 16.6-19 29.2l0 64-112 0C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96l96 0 0 64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z"
+                />
+              </svg>
+            </button>
+          </section>
+          <section class="share disable" id="share">
+            <p class="text-preset-2-footer">Share</p>
+            <a href="#" target="_blank"> <img src="images/icon-facebook.svg" alt="" /></a>
+            <a href="#" target="_blank"><img src="images/icon-twitter.svg" alt="" /></a>
+            <a href="#" target="_blank"> <img src="images/icon-pinterest.svg" alt="" /></a>
+          </section>
+        </footer>
+      </div>
+    </main>
+
+    <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
+  </body>
+  <script src="main.js"></script>
+</html>
